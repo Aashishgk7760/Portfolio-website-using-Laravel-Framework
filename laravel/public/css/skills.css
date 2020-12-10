@@ -1,0 +1,243 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#wrapper{
+    width: 80%;
+    margin-left:20%;
+    max-height: 100%;
+    
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color:#2f3742;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+}
+ul h2{
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 21%;
+}
+ul img{
+    width: 60%;
+    padding-left: 28px;
+    padding-bottom: 10%;
+    border: none;
+}
+
+li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif; 
+    
+   
+}
+li a:hover {
+    color: #3046fc;
+    
+  
+}
+.wrapper{
+    float: right;
+    width: 80%;
+    margin-left: 18%;
+    
+ }
+.row{
+    display: flex;
+   
+}
+.column{
+    flex:50%;
+    padding: 10px;
+    margin-left: 17%;
+    margin-right: -17%;
+   
+}
+
+.header{
+  text-align: center;
+}
+.column h4{
+    font-family: 'Rajdhani', sans-serif;
+    margin-left: 3%;
+    text-transform: uppercase;
+}
+.w3-container{
+    font-family: 'Roboto', sans-serif;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    width: 1148px;
+    justify-content: space-around;
+    margin-left: -20%;
+    margin-top: -14%;
+   
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+    width: 981px;
+    justify-content: space-around;
+    margin-top: -21%;
+    margin-left: 6%;
+}
+.container .card{
+    position: relative;
+    width: 171px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s; 
+    margin-left: 5%;
+    margin-top:-35%;  
+
+}
+.container .card:hover{
+    transform: translateY(-10px);
+
+}
+#header h4{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+    margin-left:-89%;
+    margin-top: -73%;
+    margin-right: -40%;
+
+   
+}
+.container .card::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, .03);
+    pointer-events: none;
+    z-index: 1;
+
+}
+.percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    z-index: 1000;   
+
+}
+.percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;   
+}
+.percent .number h2{
+    color: #777;
+    font-weight: bold;
+    font-size: 40px;
+    transition: 0.5s;
+}
+.card:hover .percent .number h2{
+    color: #777;
+    font-size: 50px;
+
+}
+ .percent .number h2 span{
+   font-size: 24px;
+   color: #777;
+
+}
+.card:hover .percent .number h2 span{
+    color: #777;
+    font-size: 34px;
+    transition: 0.5s;
+}
+.text{
+    position: relative;
+    color: #777;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1;
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.card:hover .text{
+    transition: 0.5s;
+
+}
+svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    z-index: 1000;
+}
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill: none;
+    stroke:black;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px,5px);
+}
+svg circle:nth-child(2){
+    stroke-dasharray: 200;
+    stroke-dashoffset: 400;
+   
+}
+.card:nth-child(1) svg circle:nth-child(2){
+    
+    stroke:forestgreen;
+    stroke-dashoffset: calc(439- (439*65)/100);
+    
+ 
+}
+.card:nth-child(2) svg circle:nth-child(2){
+  
+    stroke:forestgreen;
+   
+}
+.card:nth-child(3) svg circle:nth-child(2){
+   stroke:forestgreen;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

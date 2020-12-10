@@ -1,0 +1,93 @@
+#wrapper{
+    width: 80%;
+    margin-left:20%;
+    max-height: 100%;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("../img/15.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+}
+.navbar{
+    position: fixed;
+    overflow: auto;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 18%;
+    background-color: #2f3742;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+
+}
+ul h2{
+    margin-left: 70px;
+    margin-top: 8px;
+    text-transform: uppercase;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    color: rgb(190, 190, 229);
+}
+ul img{
+    width: 60%;
+    padding-left: 28px;
+    padding-bottom: 10%;
+}
+
+li a{
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    padding-bottom: 15%;
+    padding-left: 10%;
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;  
+}
+li a:hover {
+    color: #3046fc;
+   
+}
+#jumbo{
+    margin-left: 1%;
+   position: relative;
+   padding: 0;
+   margin-top: -21px;
+   margin-bottom: 0;
+   position: fixed;
+   top:240px;
+   font-size: 28px;
+}
+
+
+#jumbo h1{
+   
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    color:rgb(245, 243, 243);
+
+}
+#jumbo span{
+    font-family: 'Roboto', sans-serif;
+    color:rgb(245, 243, 243);
+}
+#jumbo h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:rgb(245, 243, 243);
+}
+#jumbo button{
+    background: linear-gradient(to right,#3fcaff 0%,#a4ffb0 51%,#3fcaff 100%);
+    background-size: 200% auto;
+    padding: 10px 35px;
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size:13px;
+}
